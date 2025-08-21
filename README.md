@@ -17,29 +17,6 @@ This project contains multiple Arduino sketches for controlling light bulbs or L
 - Relay module or transistor circuit (if using AC bulbs)
 - Arduino IDE installed
 
-## How to Use
-
-### 1. Uploading the Sketch
-
-1. Connect your Arduino board to your PC using a USB cable.
-2. Open the Arduino IDE.
-3. Open one of the `.ino` files from this repository.
-4. Select the correct **Board** and **Port** from the **Tools** menu.
-5. Click the **Upload** button.
-
-### 2. Wiring Diagrams
-
-- **Single Bulb (`lightBulb\lightBulb.ino`)**:
-  - Connect the bulb or LED to **pin 4** with appropriate circuitry.
-
-- **Four Bulbs (`4lightBulb\4lightBulb.ino`)**:
-  - Connect bulbs/LEDs to **pins 4, 5, 6, and 7**.
-
-- **Button-Controlled LED (`ButtonControlledLED\ButtonControlledLED.ino`)**:
-  - Connect the LED to **pin 2** and the button to **pin 6**.
-  - Ensure the button is properly debounced or use a pull-down resistor if needed.
-
-**Note:** If using real 220V/110V AC bulbs, always use a **relay module** for safety.
 
 ## Code Behavior
 
