@@ -40,7 +40,7 @@ Measures distance using an ultrasonic sensor (HC-SR04) and Arduino, with real-ti
 ## 🚀 Getting Started
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   https://github.com/terlinH4X/Arduino-Files.git
    ```
 2. Open the desired project folder in the Arduino IDE.  
 3. Connect your Arduino board and upload the sketch.  
