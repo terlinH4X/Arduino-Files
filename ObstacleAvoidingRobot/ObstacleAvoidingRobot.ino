@@ -5,7 +5,7 @@
 #define TRIG_PIN A0
 #define ECHO_PIN A2
 #define MAX_DISTANCE 200
-#define MAX_SPEED 255
+#define MAX_SPEED 200
 
 NewPing radar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE);
 
@@ -132,11 +132,11 @@ void moveBackward() {
 void turnLeft() {
   motorLeft.run(BACKWARD);
   motorRight.run(FORWARD);
-  delay(300);
+  delay(400);
 }
 
 void turnRight() {
   motorLeft.run(FORWARD);
   motorRight.run(BACKWARD);
-  delay(300);
+  delay(400);
 }
